@@ -1,0 +1,4 @@
+1. Apply Thunk middleware - allowsa an action creator to return a function instead of an action.
+2. Function now can perform side effects such as fetching data. The function also can dispatch regular actions based on the response.
+3. These actions then will be handled by the reducer which updates the redux state.
+4. When the state is updated the component which has subscribed to the state changes will receive the updated state which then can be used in JSX.
